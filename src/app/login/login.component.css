@@ -1,0 +1,117 @@
+
+
+  .rectangleno1{
+    position: absolute;
+    width: 390px;
+    height: 35px;
+    left: 400px;
+top: 200px;
+    background: #FFF9F9;
+    /* opacity: 0.7; */
+    border: 2px solid rgba(0, 0, 0, 0.27);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border-radius: 4px; */
+    font-family: 'Roboto';
+    }
+
+    .rectangleno2{
+      position: absolute;
+      width: 390px;
+      height: 35px;
+     
+      left: 400px;
+top: 340px;
+      background: #FFF9F9;
+      /* opacity: 0.7; */
+      border: 2px solid rgba(0, 0, 0, 0.27);
+      box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+      /* border-radius: 4px; */
+      font-family: 'Roboto';
+      }
+      .rectanglewithinbackground{
+        position: absolute;
+        width: 1150px;
+        height: 485px;
+        left: 120px;
+        top: 80px;
+        
+        background: #FFF9F9; 
+        opacity: 0.5;
+        }
+        
+        .rectangleno8{
+            box-sizing: border-box;
+            width: 1260px;
+            height: 75px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.69) 0%, #30BEB6 100%);
+            box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.username{
+  position: absolute;
+  left: 400px;
+  top: 170px;
+  color: #000000;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+}
+.password{
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  color: #000000;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+}
+
+.login{
+ 
+
+position: absolute;
+width: 150px;
+height: 40px;
+left: 400px;
+top: 450px;
+font-style: normal;
+font-size: 20px;
+font-family: 'Roboto';
+border: 1px solid rgba(0, 0, 0, 0.27);
+box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+transition-duration: 0.4s;
+
+}
+.login:hover {
+
+  background:  #30BEB6;  
+  color: black;
+}
+.cancel{
+
+
+position: absolute;
+width: 150px;
+height: 40px;
+left: 650px;
+top: 450px;
+font-size: 20px;
+font-style: normal;
+border: 1px solid rgba(0, 0, 0, 0.27);
+font-family: 'Roboto';
+box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+.cancel:hover {
+  background:  #30BEB6;  
+  color: black;
+}
