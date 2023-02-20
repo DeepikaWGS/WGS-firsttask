@@ -1,0 +1,28 @@
+//for tdd example 
+//test
+
+void testWhenBalanceLessThanAmount(){
+Account ref=new Account(1,"chenta",100);
+float expected=ref.getBalance();
+ref.withdraw(200);
+assertEquals(expected,ref.getBalance());
+}
+
+output:
+
+all the test cases will be tested
+
+one method will be tested
+
+//test
+//we can add a different scenarios
+
+void testWhenAmountIsNegative(){
+
+Account ref=new Account(1,"deep",100);
+float expected=ref.getBlanace();
+ref.withdraw(-100);
+assertEquals(expected,ref.getBalance());
+
+}
+
